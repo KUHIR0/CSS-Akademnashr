@@ -5,6 +5,13 @@ body{
     letter-spacing: 0,5;
 }
 
+
+*:focus {
+    outline: 2px dotted #ff7500;
+    outline-offset: 3px;        
+}
+
+
 .site-header{
     display: flex;
     justify-content: space-between;
@@ -253,6 +260,6 @@ body{
 }
 
 
-.site-footer-link-list a:focus {
+.site-footer-link-list a:active {
     opacity: 0.6;
 }
