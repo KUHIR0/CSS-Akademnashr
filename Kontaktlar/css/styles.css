@@ -1,0 +1,81 @@
+.header-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.rasm {
+    border: 5px solid rgb(124, 3, 237);
+    border-radius:100px;
+}
+
+
+
+.list {
+    margin-top: 30px;
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+
+
+.kontakt-list {
+    list-style: none;
+}
+
+
+
+
+.box {
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    width: 500px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 40px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+
+
+
+.box-t {
+    border: 5px solid rgb(231, 134, 17);
+    border-bottom: 2.5px solid rgb(231, 134, 17);
+    height: 50px;
+    background-color:bisque
+}
+
+.box-t:hover{
+    background-color:rgba(217, 163, 96, 0.578)
+}
+
+.box-t:active{
+    background-color:rgba(243, 200, 147, 0.391)
+}
+
+
+
+
+.box-y {
+    border: 5px solid rgb(231, 134, 17);
+    border-top: 2.5px solid rgb(231, 134, 17);
+    margin-top: px;
+    height: 50px;
+    background-color:blanchedalmond
+}
+
+.box-y:hover{
+    background-color:rgba(217, 163, 96, 0.578)
+}
+
+.box-y:active{
+    background-color:rgba(243, 200, 147, 0.391)
+}

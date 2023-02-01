@@ -16,6 +16,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 5px solid #ff7500;
     background-color: #fff;
     
 }
@@ -45,7 +48,8 @@ body{
  
 .sitenav-list{
    display: flex;
-   list-style: none; 
+   list-style: none;
+   padding: 0; 
 } 
 
 
@@ -74,6 +78,10 @@ body{
 
 
 .main-link{
+     display: inline-block;
+     padding: 12px 24px;
+     border-radius: 5px;
+     font-weight: bold;
      font-size: 13px;
      line-height: 15px;
      background-color: #ff7500 ;
@@ -93,6 +101,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: #252420;
     color: #fff;
 }
@@ -106,6 +116,7 @@ body{
 .oreng-line{
     width: 80px;
     height: 3px;
+    border:none;
     background-color: #ff7500;
 }
 
@@ -123,6 +134,13 @@ body{
 .hero-img{
     width: 510px;
     height: 510px;
+    border-radius: 8px;
+}
+
+
+.features {
+    padding-top: 210px;
+    padding-bottom: 210px;
 }
 
 
@@ -142,6 +160,15 @@ body{
 }
 
 
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+
+/* FEATURE */
 .feature{
      width: 340px;
 }
@@ -150,6 +177,7 @@ body{
 .features-icon-wrapper{
     width: 100px;
     height: 100px;
+    border-radius:50%;
     background-color: #fff;
 }
 
@@ -162,10 +190,11 @@ body{
 
 
 
-
+/* PROMO */
 .promo{
     display: flex;
     align-items: center;
+    border-radius: 12px;
     justify-content: space-between;
     background-color: #000;
     color: #fff;
@@ -196,8 +225,12 @@ body{
     object-fit: cover;
 } 
 
-.site.footer{
-    background-color: #f8f8f8;
+
+/* SITEFOOTER */
+.site-footer{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background-color: #fefdfd;
 }
 
 
@@ -212,6 +245,7 @@ body{
     display: flex;
     align-items: center;
     list-style: none;
+    padding: 0px;
 }
 
 
@@ -229,6 +263,7 @@ body{
 
 .site-footer-divider{
     height: 2px;
+    border:0;
     background: rgba(37, 36, 32, 0.502);
 }
 
