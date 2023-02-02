@@ -25,7 +25,7 @@ body{
 
 
 .logo-link {
-   transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
 }
 
 
@@ -42,15 +42,28 @@ body{
 .site-header-action {
     display: flex;
     align-items: center;
-
+    
 }
 
- 
+
+/* SITENAV */
 .sitenav-list{
-   display: flex;
-   list-style: none;
-   padding: 0; 
+    display: flex;
+    list-style: none;
+    padding: 0px; 
+    margin: 0px;
+    margin-right: 32px;
 } 
+
+.sitenav-item:last-child {
+    /* bu psevdoklas <ul> elementining oxirgi bolasi yani li ga tasir kursatadi   */
+    margin-right: 0;
+}
+
+
+.sitenav-item {
+    margin: 32px;
+}
 
 
 .sitenav-link{
@@ -78,17 +91,17 @@ body{
 
 
 .main-link{
-     display: inline-block;
-     padding: 12px 24px;
-     border-radius: 5px;
-     font-weight: bold;
-     font-size: 13px;
-     line-height: 15px;
-     background-color: #ff7500 ;
-     color: #fff;
-     text-decoration: none;
-     transition: opacity 0.4s ease;
-
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    background-color: #ff7500 ;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.4s ease;
+    
 }
 
 
@@ -117,11 +130,15 @@ body{
     width: 80px;
     height: 3px;
     border:none;
+    margin: 0px;
+    margin-bottom: 40px;
     background-color: #ff7500;
 }
 
 
 .hero-heading{
+    margin: 0px;
+    margin-bottom: 24px;
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: 0,5px;
@@ -129,6 +146,10 @@ body{
 }
 
 
+.hero-text {
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
 
 
 .hero-img{
@@ -141,15 +162,22 @@ body{
 .features {
     padding-top: 210px;
     padding-bottom: 210px;
+    margin-right: 40px;
+}
+
+.features:last-child{
+    margin: 0;
 }
 
 
 .features-heading{
+    margin-top: 0px;
+    margin-bottom: 72px;
     width: 440px;
     font-size: 72px;
     line-height: 1.2;
     font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
-   
+    
 }
 
 
@@ -161,8 +189,8 @@ body{
 
 
 .features-list {
+    margin: 0px;
     display: flex;
-    justify-content: space-between;
     list-style: none;
     padding: 0;
 }
@@ -170,7 +198,7 @@ body{
 
 /* FEATURE */
 .feature{
-     width: 340px;
+    width: 340px;
 }
 
 
@@ -207,9 +235,26 @@ body{
 
 
 .promo-heading{
+    margin-top: 0;
+    margin-bottom: 24px;
     font-size: 40px;
     line-height: 48px;
     font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+}
+
+
+.promo-info-wrapper {
+    margin-bottom: 24px;
+}
+
+
+.promo-text {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.promo-text:last-child{
+    margin: 0;
 }
 
 
@@ -246,9 +291,17 @@ body{
     align-items: center;
     list-style: none;
     padding: 0px;
+    margin: 0;
 }
 
+/* IMG-BLOCG */
+.site-footer-socials li{
+    margin-right: 16px;
+}
 
+.site-footer-socials li{
+    margin-right: 0;
+}
 
 .site-footer-socials:hover{
     color:#ff7500
@@ -260,10 +313,17 @@ body{
 }
 
 
+.site-footer-socials svg{
+    display: block;
+}
+
+
 
 .site-footer-divider{
     height: 2px;
     border:0;
+    margin-top: 40px;
+    margin-bottom: 64px;
     background: rgba(37, 36, 32, 0.502);
 }
 
@@ -276,9 +336,16 @@ body{
 
 
 .site-footer-link-list{
+    padding: 0;
+    margin: 0;
+    margin-right: 68px;
     list-style: none;
     line-height: 19px;
     width: 224px;
+}
+
+.site-footer-link-list:last-child{
+    margin-right: 0;
 }
 
 
@@ -298,3 +365,5 @@ body{
 .site-footer-link-list a:active {
     opacity: 0.6;
 }
+
+
